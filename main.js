@@ -94,7 +94,7 @@ function initNavigation() {
     const nav = document.getElementById('main-nav');
     const links = document.querySelectorAll('.nav-link');
     const progressBar = document.getElementById('scroll-progress');
-    const sections = ['hero', 'day1', 'day2', 'day3', 'day4', 'day5'];
+    const sections = ['hero', 'day1', 'day2', 'day3', 'day4', 'day5', 'cheatsheet'];
 
     window.addEventListener('scroll', () => {
         // Nav background
